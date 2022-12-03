@@ -29,11 +29,12 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.0
           bundler-cache: true
      
       - name: Build page
-        run: bundle exec jekyll build
+        run: | 
+          bundle install
+          bundle exec jekyll build
 
       - name: Setup SSH Key
         run: |
