@@ -15,15 +15,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - name: Jekyll Picture Tag dependencies install
-        run: sudo apt install libvips-tools libvips42 libvips-dev
-        
       - name: Set Node.js 16.x
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
 
-      - name: Run install
+      - name: Run yarn install
         uses: borales/actions-yarn@v4
         with:
           cmd: install # will run `yarn install` command
@@ -35,9 +32,7 @@ jobs:
           bundler-cache: true
      
       - name: Build page
-        run: | 
-          bundle install
-          bundle exec jekyll build
+        run: bundle exec jekyll build
 
       - name: Setup SSH Key
         run: |
