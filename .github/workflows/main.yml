@@ -3,6 +3,8 @@ name: Build page
 on:
   push:
     branches: [ main ]
+env:
+  JEKYLL_ENV: development
 
 jobs:
   build:
