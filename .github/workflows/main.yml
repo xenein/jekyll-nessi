@@ -1,0 +1,41 @@
+name: Build page
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Jekyll Picture Tag dependencies install
+        run: sudo apt install libvips-tools libvips42 libvips-dev
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0
+          bundler-cache: true
+
+      - name: Set up Node.js ⚙️
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.x'
+          cache: 'yarn'
+      - name: install js dependencies
+        run: yarn install
+      
+      - name: Build page
+        run: bundle exec jekyll build
+
+      - name: Setup SSH Key
+        run: |
+          ssh-agent -a $SSH_AUTH_SOCK > /dev/null
+          ssh-add - <<< "${{ secrets.PRIVATE_KEY }}"
+      - name: rsync to target
+        run: rsync -Pr -e "ssh -o StrictHostKeyChecking=accept-new" _site/ refuge@refuge.uber.space:/var/www/virtual/refuge/nessi-beta.refuge.uber.space
