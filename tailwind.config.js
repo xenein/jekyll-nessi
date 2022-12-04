@@ -8,8 +8,13 @@ module.exports = {
     './*.html',
   ],
   theme: {
-    theme: {
-      extend: {},
+    extend: {
+      colors: {
+        nessiPink: {
+          100: '#BF0090',
+          800: '#480051',
+        }
+      },
     },
   },
   plugins: []
