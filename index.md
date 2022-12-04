@@ -28,13 +28,15 @@ title: "Über mich"
   </h1>
   <h2 class="text-2xl">{{ page.title }}</h2>
 </header>
-<main class="max-w-4xl mx-auto">
-	{% for section in site.about %}
-		<section class="mt-4">
-			<h3 class="text-xl">{{ section.heading }}</h3>
-			<p>{{ section.content | markdownify }}</p>
-		</section>
-	{% endfor %} 
+<main class="bg-repeat" style="background-image: url({{ "/assets/images/background.png" | relative_url }})">
+	<div class="max-w-4xl mx-auto bg-white px-4">
+		{% for section in site.about %}
+			<section class="mt-4">
+				<h3 class="text-xl">{{ section.heading }}</h3>
+				<p>{{ section.content | markdownify }}</p>
+			</section>
+		{% endfor %} 
+	</div>
 </main>
 <footer class="mt-4">
 	<nav>   
