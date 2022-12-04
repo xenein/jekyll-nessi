@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "de-DE" }}">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -27,9 +27,14 @@
 		</ul>
 	</nav>
 	<header class="py-12 max-w-xl mx-auto text-center">
-	  <h1 class="text-4xl mb-8">
+	  <div class="grid grid-cols-2 place-content-between items-center mb-8 ">
+		<h1 class="text-8xl mb-8">
 	      FiNessi
-	  </h1>
+	  	</h1>
+			<div class="ml-32 drop-shadow-2xl">
+			  <img class="w-32 clipped" src="{{ "/assets/images/background.png" | relative_url }}">
+			</div>
+	  </div>
 	  <h2 class="text-2xl">{{ page.title }}</h2>
 	</header>
 	{{ content }}
