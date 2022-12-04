@@ -13,3 +13,8 @@ exclude:
   - postcss.config.js
   - tailwind.config.js
   - yarn.lock
+
+collections:
+  about:
+    sort_by: order
+
