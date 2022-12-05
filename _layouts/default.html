@@ -10,7 +10,8 @@
 </head>
 
 <body>
-	<nav class="bg-gradient-to-r from-fuchsia-700 via-fuchsia-700 to-black text-white w-2/3 h-72"
+	<div class="relative">
+	<nav class="bg-gradient-to-r from-fuchsia-700 via-fuchsia-700 to-black text-white w-2/3 h-72 absolute top-0 left-0 -z-20"
 		style="clip-path: polygon(100% 0, 0 0, 0 100%);">
 		<ul class="flex flex-wrap items-center mb-4 md:pt-2">
 			<li class="mx-8">
@@ -30,7 +31,7 @@
 			</li>
 		</ul>
 	</nav>
-	<header class="pb-12 pt-0 max-w-xl mx-auto text-center">
+	<header class="pb-12 max-w-xl pt-16 mx-auto text-center h-80 z-0">
 		<div class="grid grid-cols-2 place-content-between items-center mb-8 ">
 			<h1 class="text-8xl text-center md:text-left mb-8">
 				FiNessi
@@ -41,6 +42,7 @@
 		</div>
 		<h2 class="text-2xl">{{ page.title }}</h2>
 	</header>
+	</div>
 	{{ content }}
 	<footer class="mt-8">
 		<nav>
