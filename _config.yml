@@ -17,4 +17,5 @@ exclude:
 collections:
   about:
     sort_by: order
-
+  socials:
+    sort_by: order
