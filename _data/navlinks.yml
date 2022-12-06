@@ -1,0 +1,10 @@
+- name: FiNessi
+  link: "/"
+- name: Socials
+  link: "socials.html"
+- name: Projekte
+  link: "#"
+- name: Referenzen
+  link: "#"
+- name: Service
+  link: "#"

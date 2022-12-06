@@ -11,37 +11,27 @@
 
 <body>
 	<div class="relative">
-	<nav class="bg-gradient-to-r from-fuchsia-700 via-fuchsia-700 to-black text-white w-2/3 h-72 absolute top-0 left-0 -z-20"
-		style="clip-path: polygon(100% 0, 0 0, 0 100%);">
-		<ul class="flex flex-wrap items-center mb-4 md:pt-2">
-			<li class="mx-8">
-				<a href="/" class="mr-8 hover:underline md:mr-6 ">FiNessi</a>
-			</li>
-			<li class="mx-8">
-				<a href="socials.html" class="mr-8 hover:underline md:mr-6">Socials</a>
-			</li>
-			<li class="mx-8">
-				<a href="#" class="mr-8 hover:underline md:mr-6 ">Projekte</a>
-			</li>
-			<li class="mx-8">
-				<a href="#" class="mr-8 hover:underline md:mr-6">Referenzen</a>
-			</li>
-			<li class="mx-8">
-				<a href="#" class="mr-8 hover:underline md:mr-6">Service</a>
-			</li>
-		</ul>
-	</nav>
-	<header class="pb-12 max-w-xl pt-16 mx-auto text-center h-80 z-0">
-		<div class="grid grid-cols-2 place-content-between items-center mb-8 ">
-			<h1 class="text-8xl text-center md:text-left mb-8">
-				FiNessi
-			</h1>
-			<div class="hidden md:flex ml-32 drop-shadow-2xl">
-				<img class="w-48 clipped" src="/assets/images/nessi.jpeg">
+		<nav class="bg-gradient-to-r from-fuchsia-700 via-fuchsia-700 to-black text-white w-2/3 h-72 absolute top-0 left-0"
+			style="clip-path: polygon(100% 0, 0 0, 0 100%);">
+			<ul class="flex flex-wrap items-center mb-4 md:pt-2">
+				{% for nav_element in site.data.navlinks %}
+					<li class="mx-8">
+						<a href="{{ nav_element.link }}" class="mr-8 hover:underline md:mr-6">{{ nav_element.name}} </a>
+					</li>
+				{% endfor %}
+			</ul>
+		</nav>
+		<header class="pb-12 max-w-xl pt-14 mx-auto text-center h-80 z-0 relative">
+			<div class="grid grid-cols-2 place-content-between items-center mb-8 mt-2">
+				<h1 class="text-8xl text-center md:text-left mb-8">
+					FiNessi
+				</h1>
+				<div class="hidden md:flex ml-32 drop-shadow-2xl">
+					<img class="w-48 clipped" src="/assets/images/nessi.jpeg">
+				</div>
 			</div>
-		</div>
-		<h2 class="text-2xl">{{ page.title }}</h2>
-	</header>
+			<h2 class="text-2xl">{{ page.title }}</h2>
+		</header>
 	</div>
 	{{ content }}
 	<footer class="mt-8">
