@@ -2,4 +2,4 @@
 heading: TikTok
 order: 5
 ---
-Auf Tiktok sehr ihr lustige Clips und aufklärerische Kurzvideos.
+Auf TikTok seht ihr lustige Clips und aufklärerische Kurzvideos. In unseren Videos geht es um alles, was euch interessiert und bewegt, also stellt Fragen direkt in den Kommentaren. Lasst euch gerne unterhalten und informieren.

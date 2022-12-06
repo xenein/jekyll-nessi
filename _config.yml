@@ -19,3 +19,5 @@ collections:
     sort_by: order
   socials:
     sort_by: order
+  projects:
+    sort_by: order

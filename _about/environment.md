@@ -1,7 +1,6 @@
 ---
 heading: "Umwelt"
-order: 1
+order: 2
 ---
-Ein weiteres Thema, welches ich gerne behandle, ist das Thema Umwelt. 2019 war ich daher auch Teil der FFF-Orga in unserem Ort.
-Auch, wenn ich mich seitdem mehr auf Aktivismus im queeren Bereich  konzentriert habe, setze ich mich auch noch für diese Themen in Form von Demos und Behandlung in meinen Streams ein.
+Ich möchte ein Zeichen für eine gerechtere und umweltfreundlichere Welt setzen. Durch meine Aktivismus-Bemühungen on Stream, als auch bei [FFF](https://fridaysforfuture.de) möchte ich auf die Bedrohung der Umwelt durch den Klimawandel aufmerksam machen und gleichzeitig zeigen, dass es auch anders geht. Gemeinsam können wir ein friedlicheres und besseres Leben für alle Lebewesen ermöglichen!
 

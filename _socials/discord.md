@@ -2,4 +2,5 @@
 heading: Discord
 order: 6
 ---
-Wer einen Safespace sucht und sich über verschiedene Themen austauschen möchte, kann meinem Community Discord mit über 300 Menschen beitreten. Hier bekommt ihr auch Informationen rund um meinen Stream.
+Fühl dich willkommen auf unserem Discord-Server. Wir sind eine Community, die sich zusammengeschlossen hat, um einen sicheren Raum für alle zu schaffen. Hier kannst du dich mit anderen austauschen, neue Freunde finden und gemeinsam Spaß haben.
+Zusätzlich bekommst du auch Informationen rund um meinen Stream.

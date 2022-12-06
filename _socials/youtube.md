@@ -2,5 +2,7 @@
 heading: Youtube
 order: 3
 ---
-Ich mache Videos bezüglich Aufklärung, wie beispielsweise meine Reihe “Spaß mit Flaggen", bei der ich über die queeren Flaggen rede und auch andere Menschen interviewe. Zusätzlich seht ihr hier auch Zusammenschnitte von wichtigen Themen-Streams.
-Für Youtube ist aber auch noch einiges in Planung.
+Ich mache Videos zu Themen wie Bildung, zum Beispiel mit meiner Serie "Spaß mit Flaggen", in der ich über die verschiedenen Prideflags  spreche und andere Leute interviewe. Hier könnt ihr auch Clips aus wichtigen Themenstreams sehen.
+Aber es ist auch noch viel mehr für Youtube geplant.
+Schaut also ruhig ab und zu mal vorbei!
+
