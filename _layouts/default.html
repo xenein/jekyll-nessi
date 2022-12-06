@@ -15,9 +15,9 @@
 			style="clip-path: polygon(100% 0, 0 0, 0 100%);">
 			<ul class="flex flex-wrap items-center mb-4 md:pt-2">
 				{% for nav_element in site.data.navlinks %}
-					<li class="mx-8">
-						<a href="{{ nav_element.link }}" class="mr-8 hover:underline md:mr-6">{{ nav_element.name}} </a>
-					</li>
+				<li class="mx-8">
+					<a href="{{ nav_element.link }}" class="mr-8 hover:underline md:mr-6">{{ nav_element.name}} </a>
+				</li>
 				{% endfor %}
 			</ul>
 		</nav>
@@ -34,8 +34,8 @@
 		</header>
 	</div>
 	{{ content }}
-	<footer class="mt-8">
-		<nav>
+	<footer class="mt-8 relative">
+		<nav class="relative h-64">
 			<ul class="flex flex-wrap justify-center items-center mb-4">
 				<li>
 					<a href="#" class="mr-4 hover:underline md:mr-6 ">Kontakt</a>
@@ -48,6 +48,18 @@
 				</li>
 			</ul>
 		</nav>
+		<div class="absolute h-64 w-3/4 bg-gradient-to-r from-fuchsia-700 to-fuchsia-900 bottom-0 right-0"
+			style="clip-path: polygon(100% 0%,0% 100%,100% 100%);">
+		</div>
+		<div class="absolute h-64 w-3/4 bottom-0 right-0">
+			<div class="relative pt-36 mr-4 float-right w-72">
+				{% for sm_element in site.data.bottomicons %}
+				<a href="{{ sm_element.url }} rel="me">
+					<img src="{{ sm_element.logo }}" alt="{{ sm_element.name }}" class="w-8 mx-1 rounded-[10px] inline-block bg-white" />
+				</a>
+				{% endfor %}
+			</div>
+		</div>
 	</footer>
 </body>
 
