@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<title>{{ page.title }} - {{ site.title }}</title>
 	<link rel="stylesheet" href="/assets/css/main.css">
-	
+
 
 	<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
@@ -39,37 +39,44 @@
 					<img class="w-48 clipped" src="/assets/images/nessi.jpeg">
 				</div>
 			</div>
-			<h2 class="text-2xl">{{ page.title }}</h2>
+			<h2 class="pt-12 text-3xl">{{ page.title }}</h2>
 		</header>
 	</div>
-	{{ content }}
-	<footer class="mt-8 relative">
-		<nav class="relative bg-stone-900 text-stone-50 h-64">
-			<ul class="flex flex-wrap justify-center items-center mb-4">
-				<li>
-					<a href="#" class="mr-4 hover:underline md:mr-6 ">Kontakt</a>
-				</li>
-				<li>
-					<a href="#" class="mr-4 hover:underline md:mr-6">Impressum</a>
-				</li>
-				<li>
-					<a href="#" class="mr-4 hover:underline md:mr-6">Datenschutz</a>
-				</li>
-			</ul>
-		</nav>
-		<div class="absolute h-64 w-3/4 bg-gradient-to-r from-fuchsia-700 to-fuchsia-900 bottom-0 right-0"
-			style="clip-path: polygon(100% 0%,0% 100%,100% 100%);">
-		</div>
-		<div class="absolute h-64 w-3/4 bottom-0 right-0">
-			<div class="relative pt-36 mr-4 float-right w-72">
-				{% for sm_element in site.data.bottomicons %}
-				<a href="{{ sm_element.url }} rel="me">
-					<img src="{{ sm_element.logo }}" alt="{{ sm_element.name }}" class="w-8 mx-1 rounded-[10px] inline-block bg-white" />
-				</a>
-				{% endfor %}
+
+		{{ content }}
+
+
+	<footer class="relative transform-none md:skew-y-6 bg-transparent">
+		<div class="transform-none md:-skew-y-6">
+			<nav class="relative bg-stone-900 text-stone-50 h-64 ">
+				<ul class="flex flex-wrap justify-center items-center mb-4">
+					<li>
+						<a href="#" class="mr-4 hover:underline md:mr-6 ">Kontakt</a>
+					</li>
+					<li>
+						<a href="#" class="mr-4 hover:underline md:mr-6">Impressum</a>
+					</li>
+					<li>
+						<a href="#" class="mr-4 hover:underline md:mr-6">Datenschutz</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="absolute h-64 w-3/4 bg-gradient-to-r from-fuchsia-700 to-fuchsia-900 bottom-0 right-0 "
+				style="clip-path: polygon(100% 0%,0% 100%,100% 100%);">
+			</div>
+			<div class="absolute h-64 w-3/4 bottom-0 right-0">
+				<div class="relative pt-36 mr-4 float-right w-72">
+					{% for sm_element in site.data.bottomicons %}
+					<a href="{{ sm_element.url }} rel=" me">
+						<img src="{{ sm_element.logo }}" alt="{{ sm_element.name }}"
+							class="w-8 mx-1 rounded-[10px] inline-block bg-white" />
+					</a>
+					{% endfor %}
+				</div>
 			</div>
 		</div>
 	</footer>
+
 </body>
 
 </html>
