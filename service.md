@@ -4,7 +4,7 @@ title: "Service"
 ---
 <main class="bg-cover mt-24 transform-none md:skew-y-6" style="background-image: url({{ "/assets/images/background.png" | relative_url }})">
 	<div class="max-w-4xl mx-auto bg-transparent transform-none md:-skew-y-6">
-			<section class="py-6 last:mb-0 bg-stone-900 text-stone-50 transform-none md:skew-y-6">
+			<section class="pt-16 pb-24 last:mb-0 bg-stone-900 text-stone-50 transform-none md:skew-y-6">
 				<div class="p-12 transform-none md:-skew-y-6">
 					<p>Im Rahmen meiner Internetpräsenz arbeite ich gerne mit Personen und Unternehmen zusammen, welche sich für die Themen Umweltschutz und LGBTQIA+ Einsetzen.</p>
                     <p class="mt-2">In meine Tätigkeiten fallen:</p>
