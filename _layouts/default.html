@@ -18,8 +18,8 @@
 	<meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
 </head>
 
-<body>
-	<div class="relative">
+<body class="">
+	<div class="relative" >
 		<nav class="bg-gradient-to-r from-fuchsia-700 via-fuchsia-700 to-stone-900 text-white w-2/3 h-72 absolute top-0 left-0"
 			style="clip-path: polygon(100% 0, 0 0, 0 100%);">
 			<ul class="flex flex-wrap items-center mb-4 md:pt-2">
@@ -30,7 +30,7 @@
 				{% endfor %}
 			</ul>
 		</nav>
-		<header class="pb-12 max-w-xl pt-14 mx-auto text-center h-80 z-0 relative">
+		<header class="pb-12 max-w-xl pt-14 mx-auto text-center h-80 z-0 relative ">
 			<div class="grid grid-cols-2 place-content-between items-center mb-8 mt-2">
 				<h1 class="text-8xl text-center md:text-left mb-8">
 					FiNessi
@@ -46,21 +46,22 @@
 		{{ content }}
 
 
-	<footer class="relative transform-none md:skew-y-6 bg-transparent">
+
+	<footer class="relative transform-none md:skew-y-6 -mt-28 bg-stone-900">
 		<div class="transform-none md:-skew-y-6">
-			<nav class="relative bg-stone-900 text-stone-50 h-64">
+			<nav class=" mt-24 pt-8 bg-stone-900 text-stone-50 h-64">
 				<ul class="flex flex-wrap items-center mb-4 md:pt-2 justify-center">
 					{% for bot_element in site.data.bottomlinks %}
-					<li class="mx-8">
-						<a href="{{ bot_element.link }}" class="mr-8 hover:underline md:mr-6">{{ bot_element.name}} </a>
+					<li class="mx-8 z-20">
+						<a href='{{ bot_element.link }}' class="mr-8 hover:underline md:mr-6">{{ bot_element.name}} </a>
 					</li>
 					{% endfor %}
 				</ul>
 			</nav>
-			<div class="absolute h-64 w-3/4 bg-gradient-to-r from-fuchsia-700 to-fuchsia-900 bottom-0 right-0 "
-				style="clip-path: polygon(100% 0%,0% 100%,100% 100%);">
+			<div class="absolute h-64 w-full bg-gradient-to-r from-fuchsia-700 to-fuchsia-900 bottom-0 right-0 "
+				style="clip-path: polygon(0% 70%,100% 20%,100% 100%,0% 100%);">
 			</div>
-			<div class="absolute h-64 w-3/4 bottom-0 right-0">
+			<div class="absolute h-64 w-3/4 bottom-0 right-0 z-10">
 				<div class="relative pt-36 mr-4 float-right w-96">
 					{% for sm_element in site.data.bottomicons %}
 					<a href="{{ sm_element[1].url }}" rel="me">
@@ -72,6 +73,7 @@
 			</div>
 		</div>
 	</footer>
+
 
 </body>
 
