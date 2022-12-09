@@ -1,18 +1,24 @@
-- name: TikTok
+TikTok:
+  name: TikTok
   logo: "assets/images/social/tiktok.png"
   url: "https://www.tiktok.com/@finessi_"
-- name: YouTube
+YouTube:
+  name: YouTube
   logo: "assets/images/social/youtube.png"
   url: "https://www.youtube.com/@finessi_"
-- name: Instagram
+Instagram:
+  name: Instagram
   logo: "assets/images/social/instagram.png"
   url: "https://www.instagram.com/finessi__/"
-- name: Twitter
+Twitter:
+  name: Twitter
   logo: "assets/images/social/twitter.png"
   url: "https://twitter.com/FiNessi_"
-- name: Mastodon
+Mastodon:
+  name: Mastodon
   logo: "assets/images/social/mastodon.svg.png"
   url: "https://mastodon.social/@finessi"
-- name: Twitch
+Twitch:
+  name: Twitch
   logo: "assets/images/social/twitch.png"
   url: "https://twitch.tv/finessi"

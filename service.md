@@ -16,7 +16,10 @@ title: "Service"
                         <li>uvm.</li>
                     </ul>
                     <p class="mt-2">Falls du Interesse an einer Zusammenarbeit oder sonstige Fragen hast, schreib mir gerne!</p>
-                    <p>Email: <a href="mailto:finessi.info@gmail.com">finessi.info@gmail.com</a></p>
+                    <p>Email: <a class="hover:underline" href="mailto:finessi.info@gmail.com">finessi.info@gmail.com</a> oder über 
+                    <a class="hover:underline" href="{{ site.data.bottomicons.Twitter.url }}"><img src="{{ site.data.bottomicons.Twitter.logo }}" class="w-4 aspect-square inline mr-1 align-middle">Twitter</a>,
+                    <a class="hover:underline" href="{{ site.data.bottomicons.Instagram.url }}"><img src="{{ site.data.bottomicons.Instagram.logo }}" class="w-4 aspect-square inline mr-1 align-middle">Instagram</a> oder
+                    <a class="hover:underline" href="{{ site.data.bottomicons.Discord.url }}"><img src="{{ site.data.bottomicons.Discord.logo }}" class="w-4 aspect-square inline mr-1 align-middle">Discord</a>.</p>
 				</div>
 			</section>
 	</div>
