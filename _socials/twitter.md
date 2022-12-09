@@ -1,5 +1,6 @@
 ---
 heading: Twitter
+bigicon: "assets/images/customsocial/twitter.png"
 order: 2
 ---
 Ich bin stolz darauf, queer zu sein und halte es für wichtig, dass sich die Gesellschaft weiterhin um queere Themen kümmert. 
