@@ -22,3 +22,7 @@ Twitch:
   name: Twitch
   logo: "assets/images/social/twitch.png"
   url: "https://twitch.tv/finessi"
+Discord:
+  name: Discord
+  logo: "assets/images/social/discord.png"
+  url: "https://discord.gg/PnPp5HDcdc"
