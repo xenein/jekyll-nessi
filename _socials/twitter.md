@@ -1,6 +1,7 @@
 ---
 heading: Twitter
 bigicon: "assets/images/customsocial/twitter.png"
+web: "https://twitter.com/FiNessi_"
 order: 2
 ---
 Ich bin stolz darauf, queer zu sein und halte es für wichtig, dass sich die Gesellschaft weiterhin um queere Themen kümmert. 

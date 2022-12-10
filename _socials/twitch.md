@@ -1,6 +1,7 @@
 ---
 heading: Twitch
 bigicon: "assets/images/customsocial/twitch.png"
+web: "https://twitch.tv/finessi_"
 order: 1
 ---
 Ich bin seit Juli 2020 auf Twitch unterwegs und streame hier vor allem LGBTQIA+-Aufklärung, aber auch andere soziale Themen, Kunst, Gaming und Musik. Seit der Gründung bin ich Mitglied des Streamteams "Rainbow Revolution", das für queere Safespaces auf Twitch einsteht.
