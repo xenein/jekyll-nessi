@@ -1,5 +1,6 @@
 ---
 heading: "Podcast Keine Band"
+bigicon: "assets/images/projects/PodcastKeineBand.png"
 order: 2
 ---
 Im Podcast “Keine Band” rede ich zusammen mit JillPls über alle möglichen Dinge nach dem Motto: “Nessi und Jill wagen das Unmögliche - einen Podcast zu machen, der sich nicht um das queer sein dreht!”

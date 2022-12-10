@@ -1,5 +1,6 @@
 ---
 heading: "Schlau Bonn"
+bigicon: "assets/images/projects/SchlauBonn.png"
 order: 1
 ---
 2021 war ich Aktiv als Hospi bei SCHLAU Bonn. Dort haben wir Workshops an Schulen und in Unternehmen zum Thema sexueller und geschlechtlicher Vielfalt gegeben.
