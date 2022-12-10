@@ -25,7 +25,7 @@
 			<ul class="flex flex-wrap items-center mb-4 md:pt-2">
 				{% for nav_element in site.data.navlinks %}
 				<li class="mx-8">
-					<a href="{{ nav_element.link }}" class="mr-8 hover:underline md:mr-6 -z-10">{{ nav_element.name}} </a>
+					<a href="{{ nav_element.link }}" class="mr-8 hover:underline md:mr-6 -z-10 font-['Arial']">{{ nav_element.name}} </a>
 				</li>
 				{% endfor %}
 			</ul>
@@ -50,7 +50,7 @@
 				<ul class="flex flex-wrap items-center mb-4 md:pt-2 justify-center">
 					{% for bot_element in site.data.bottomlinks %}
 					<li class="mx-8 z-20">
-						<a href='{{ bot_element.link }}' class="mr-8 hover:underline md:mr-6">{{ bot_element.name}} </a>
+						<a href='{{ bot_element.link }}' class="mr-8 hover:underline md:mr-6 font-['Arial']">{{ bot_element.name}} </a>
 					</li>
 					{% endfor %}
 				</ul>

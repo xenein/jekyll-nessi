@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: [
     './_drafts/**/*.html',
@@ -13,12 +15,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        nessiPink: {
-          100: '#BF0090',
-          800: '#480051',
-        }
-      },
+      fontFamily: {
+				sans: ['Impact', ...defaultTheme.fontFamily.sans],
+			},
     },
   },
   plugins: []
