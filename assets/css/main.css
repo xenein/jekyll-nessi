@@ -12,3 +12,8 @@
   .clipped {
     clip-path: polygon(0 var(--corner-low),var(--corner-low) 0,100% 0,100% var(--corner-high),var(--corner-high) 100%,0 100%);
   }
+
+  section a:hover {
+    @apply text-fuchsia-400;
+  }
+
