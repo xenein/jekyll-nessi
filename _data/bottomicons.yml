@@ -1,28 +1,28 @@
-TikTok:
-  name: TikTok
-  logo: "assets/images/social/tiktok.png"
-  url: "https://www.tiktok.com/@finessi_"
-YouTube:
-  name: YouTube
-  logo: "assets/images/social/youtube.png"
-  url: "https://www.youtube.com/@finessi_"
-Instagram:
-  name: Instagram
-  logo: "assets/images/social/instagram.png"
-  url: "https://www.instagram.com/finessi__/"
-Twitter:
-  name: Twitter
-  logo: "assets/images/social/twitter.png"
-  url: "https://twitter.com/FiNessi_"
-Mastodon:
-  name: Mastodon
-  logo: "assets/images/social/mastodon.svg.png"
-  url: "https://mastodon.social/@finessi"
 Twitch:
   name: Twitch
   logo: "assets/images/social/twitch.png"
   url: "https://twitch.tv/finessi"
+Twitter:
+  name: Twitter
+  logo: "assets/images/social/twitter.png"
+  url: "https://twitter.com/FiNessi_"
+Instagram:
+  name: Instagram
+  logo: "assets/images/social/instagram.png"
+  url: "https://www.instagram.com/finessi__/"
+YouTube:
+  name: YouTube
+  logo: "assets/images/social/youtube.png"
+  url: "https://www.youtube.com/@finessi_"
+TikTok:
+  name: TikTok
+  logo: "assets/images/social/tiktok.png"
+  url: "https://www.tiktok.com/@finessi_"
 Discord:
   name: Discord
   logo: "assets/images/social/discord.png"
   url: "https://discord.gg/PnPp5HDcdc"
+Mastodon:
+  name: Mastodon
+  logo: "assets/images/social/mastodon.svg.png"
+  url: "https://mastodon.social/@finessi"
