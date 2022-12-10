@@ -20,19 +20,19 @@
 
 <body class="">
 	<div class="relative" >
-		<nav class="bg-gradient-to-r from-fuchsia-700 via-fuchsia-700 to-stone-900 text-white w-2/3 h-72 absolute top-0 left-0"
+		<nav class="bg-gradient-to-r from-fuchsia-700 via-fuchsia-700 to-stone-900 text-white w-4/5 h-72 absolute top-0 left-0"
 			style="clip-path: polygon(100% 0, 0 0, 0 100%);">
 			<ul class="flex flex-wrap items-center mb-4 md:pt-2">
 				{% for nav_element in site.data.navlinks %}
 				<li class="mx-8">
-					<a href="{{ nav_element.link }}" class="mr-8 hover:underline md:mr-6">{{ nav_element.name}} </a>
+					<a href="{{ nav_element.link }}" class="mr-8 hover:underline md:mr-6 -z-10">{{ nav_element.name}} </a>
 				</li>
 				{% endfor %}
 			</ul>
 		</nav>
 
-		<header class="pb-12 w-full pt-6 mx-auto text-center h-80 z-0 relative">
-			<h1 class="text-[9rem] mb-8 text-center">FiNessi</h1>
+		<header class="pb-12 w-full pt-6 mx-auto text-center h-80 z-0 pointer-events-none relative">
+			<h1 class="text-[9rem] mb-8 text-center relative">FiNessi</h1>
 			<div class="hidden md:flex ml-32 drop-shadow-xl w-auto absolute right-6 top-6">
 				<img class="w-96 clipped" src="/assets/images/nessi.jpeg">
 			</div>
