@@ -1,28 +1,28 @@
 Twitch:
   name: Twitch
-  logo: "assets/images/social/twitch.png"
+  logo: "assets/images/social/twitch.webp"
   url: "https://twitch.tv/finessi_"
 Twitter:
   name: Twitter
-  logo: "assets/images/social/twitter.png"
+  logo: "assets/images/social/twitter.webp"
   url: "https://twitter.com/FiNessi_"
 Instagram:
   name: Instagram
-  logo: "assets/images/social/instagram.png"
+  logo: "assets/images/social/instagram.webp"
   url: "https://www.instagram.com/finessi__/"
 YouTube:
   name: YouTube
-  logo: "assets/images/social/youtube.png"
+  logo: "assets/images/social/youtube.webp"
   url: "https://www.youtube.com/@finessi_"
 TikTok:
   name: TikTok
-  logo: "assets/images/social/tiktok.png"
+  logo: "assets/images/social/tiktok.webp"
   url: "https://www.tiktok.com/@finessi_"
 Discord:
   name: Discord
-  logo: "assets/images/social/discord.png"
+  logo: "assets/images/social/discord.webp"
   url: "https://discord.gg/PnPp5HDcdc"
 Mastodon:
   name: Mastodon
-  logo: "assets/images/social/mastodon.svg.png"
+  logo: "assets/images/social/mastodon.svg.webp"
   url: "https://mastodon.social/@finessi"
