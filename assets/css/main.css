@@ -25,3 +25,7 @@ h1 {
 h1, h2, h3, h4, h5 {
   @apply font-['Impact'];
 }
+
+section:nth-child(even) {
+  box-shadow: inset 0px 15px 15px -3px rgba(0, 0, 0, 0.6), inset 0px -15px 15px -3px rgba(0, 0, 0, 0.6);
+}
