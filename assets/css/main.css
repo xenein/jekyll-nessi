@@ -17,3 +17,6 @@
     @apply text-fuchsia-400;
   }
 
+h1 {
+  text-shadow: black 5px 5px 2px;
+}
