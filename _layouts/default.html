@@ -85,14 +85,19 @@
 		const closeButton = document.getElementById("menuClose");
 
 		toggleMenu = function () {
+			//check menustate before
+			oldState = menuDiv.classList.contains("hidden");
+
 			menuDiv.classList.toggle("hidden");
 			menuDiv.classList.toggle("block");
 
 			closeButton.classList.toggle("hidden");
 			closeButton.classList.toggle("block");
+			menuButton.setAttribute('aria-expanded', !oldState);
 
 			menuButton.classList.toggle("hidden");
 			menuButton.classList.toggle("block");
+			menuButton.setAttribute('aria-expanded', !oldState);
 		}
 
 		closeButton.addEventListener("click", toggleMenu);
