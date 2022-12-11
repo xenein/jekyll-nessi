@@ -1,8 +1,9 @@
 ---
 heading: "Streams"
+wall: "assets/images/references/Stream.webp"
 order: 1
 ---
-<ul class="list-inner list-disc">
+<ul class="list-inner text-center">
     <li><a href="https://youtu.be/PifN8fCVkq0">Freiraumreh</a></li>
     <li><a href="https://www.instagram.com/p/CQbdfpIgtjt/">Gnu_Live</a></li>
     <li><a href="https://www.twitch.tv/ramonavonrage">RamonaVonRage</a></li>
