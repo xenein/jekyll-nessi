@@ -9,12 +9,14 @@
   @font-face {
     font-family: Impact;
     font-weight: 400;
-    src: url("assets/fonts/impactreg.woff") format("woff");
+    src: url("../fonts/impactreg.woff") format("woff");
+    font-display: swap;
   }
   @font-face {
     font-family: Impact;
     font-weight: 500;
-    src: url("assets/fonts/impactreg.woff") format("woff");
+    src: url("../fonts/impactreg.woff") format("woff");
+    font-display: swap;
   }
 }
 
