@@ -19,32 +19,7 @@
 </head>
 
 <body class="relative">
-	<button class="md:hidden block absolute top-2 right-2 w-8 aspect-square z-50 cursor-pointer" id="menuOpen" aria-label="Menü anzeigen">
-		<svg xmlns="http://www.w3.org/2000/svg" class="relative"
-			viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-			<path
-				d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
-		</svg>
-	</button>
-
-	<!-- mobile menu-->
-	<nav class="hidden md:hidden fixed top-0 left-0 w-full h-screen z-10" id="mobileMenu">
-		<div class="w-full relative">
-			{% for nav_element in site.data.navlinks %}
-			<a href="{{ nav_element.link }}"
-				class="w-full block h-5 py-12 odd:bg-white even:bg-stone-100 text-fuchsia-900 font-['Arial'] text-center text-lg">
-				{{ nav_element.name }}
-			</a>
-			{% endfor %}
-		</div>
-		<button class="absolute top-2 right-2 w-8 aspect-square hidden" id="menuClose" aria-label="Menü ausblenden">
-			<svg xmlns="http://www.w3.org/2000/svg" class="stroke-black"
-				viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-				<path
-					d="M175 175C184.4 165.7 199.6 165.7 208.1 175L255.1 222.1L303 175C312.4 165.7 327.6 165.7 336.1 175C346.3 184.4 346.3 199.6 336.1 208.1L289.9 255.1L336.1 303C346.3 312.4 346.3 327.6 336.1 336.1C327.6 346.3 312.4 346.3 303 336.1L255.1 289.9L208.1 336.1C199.6 346.3 184.4 346.3 175 336.1C165.7 327.6 165.7 312.4 175 303L222.1 255.1L175 208.1C165.7 199.6 165.7 184.4 175 175V175zM512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 48C141.1 48 48 141.1 48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48z" />
-			</svg>
-		</button>
-	</nav>
+	{% include mobile_menu %}
 
 	<div class="relative">
 		<nav class="bg-gradient-to-r from-fuchsia-700 via-fuchsia-700 to-stone-900 text-white w-4/5 h-72 absolute top-0 left-0"
@@ -64,7 +39,8 @@
 				style="-webkit-text-stroke: 3px black; text-stroke: 3px black;">FiNessi</h1>
 			<div class="hidden md:flex ml-32 drop-shadow-xl w-auto absolute right-6 top-6"
 				style="filter: drop-shadow(.5rem .5rem 1rem rgba(0,0,0,0.8));">
-				<img class="xl:w-96 lg:w-72 md:w-32 clipped" src="/assets/images/nessi.webp" alt="ein Portraitfoto von FiNessi" />
+				<img class="xl:w-96 lg:w-72 md:w-32 clipped" src="/assets/images/nessi.webp"
+					alt="ein Portraitfoto von FiNessi" />
 			</div>
 			<h2 class="relative pt-12 text-5xl">{{ page.title }}</h2>
 		</header>
@@ -99,10 +75,8 @@
 				{% endfor %}
 			</div>
 		</div>
-		<img class="absolute left-0 bottom-0 hidden md:block w-1/4"
-			 src="assets/images/bottom.webp"
-			 alt="Nessi mit einer Progess-Prideflag"
-			 />
+		<img class="absolute left-0 bottom-0 hidden md:block w-1/4" src="assets/images/bottom.webp"
+			alt="Nessi mit einer Progess-Prideflag" />
 
 	</footer>
 
@@ -111,10 +85,10 @@
 		const menuButton = document.getElementById("menuOpen");
 		const closeButton = document.getElementById("menuClose");
 
-		toggleMenu = function() {
+		toggleMenu = function () {
 			menuDiv.classList.toggle("hidden");
 			menuDiv.classList.toggle("block");
-			
+
 			closeButton.classList.toggle("hidden");
 			closeButton.classList.toggle("block");
 
