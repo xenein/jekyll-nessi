@@ -1,5 +1,5 @@
 <main class="bg-cover md:mt-24 transform-none md:skew-y-6" style="background-image: url({{ "/assets/images/background.webp" | relative_url }})">
-	<div class="max-w-4xl mx-auto bg-transparent transform-none md:-skew-y-6 shadow-inner shadow-white">
+	<div class="max-w-4xl mx-auto bg-transparent transform-none md:-skew-y-6 shadow-inner shadow-white pb-4">
 		{% for section in include.collection %}
 			{% if section.web and section.web != "" and section.web != "nil" %}
 				{% assign link_set = true %}
