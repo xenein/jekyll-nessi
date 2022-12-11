@@ -10,7 +10,7 @@
     --corner-high: calc(100% - var(--corner-low));
   }
   .clipped {
-    clip-path: polygon(0 var(--corner-low),var(--corner-low) 0,100% 0,100% var(--corner-high),var(--corner-high) 100%,0 100%);
+    clip-path: polygon(0% var(--corner-high),0% 0%,var(--corner-high) 0,100% var(--corner-low),100% 100%,var(--corner-low) 100%);
   }
 
   section a:hover {
