@@ -39,4 +39,4 @@ jobs:
           ssh-agent -a $SSH_AUTH_SOCK > /dev/null
           ssh-add - <<< "${{ secrets.PRIVATE_KEY }}"
       - name: rsync to target
-        run: rsync -Pr -e "ssh -o StrictHostKeyChecking=accept-new" _site/ refuge@refuge.uber.space:/var/www/virtual/refuge/nessi-beta.refuge.uber.space
+        run: rsync -Pr -e "ssh -o StrictHostKeyChecking=accept-new" _site/ refuge@refuge.uber.space:/var/www/virtual/refuge/finessi.de
