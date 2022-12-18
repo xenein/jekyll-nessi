@@ -28,3 +28,11 @@ collections:
 tagline: "Aufklärung zu LGBTQIA+ Themen"
 description: "FiNessi ist on- und offline in Öffentlichkeitsarbeit aktiv. Viel Aufklärungsarbeit zu Geschlecht und Transsein, zu Umwelt- und Klimaschutz. Live auf Twitch, vorproduziert auf YouTube, in Interviews und Dokumentation bei Print und Video."
 locale: de_DE
+
+twitter:
+  username: finessi_
+  card: summary
+  
+author:
+  name: Finessi_
+  url: https://twitter.com/finessi_
