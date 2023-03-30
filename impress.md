@@ -10,6 +10,7 @@ title: "Impressum"
                     <p class="mt-2 not-italic">Vanessa 'FiNessi' Unger <br />
                         c/o Streamernetzwerk Friesencrew.de <br />
                         Buchweizenstraße 4
+			    
                         26670 Uplengen
                     </p>
                     <h2 class="mt-4 underline not-italic">Umsatzsteuer-ID gem. §27a Umsatzsteuergesetz</h2>
