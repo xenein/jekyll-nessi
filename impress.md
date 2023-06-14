@@ -19,8 +19,10 @@ title: "Impressum"
                     <p class="not-italic" >finessi@instinct3.de</p>
 		    <h2 class="mt-4 underline not-italic">Web:</h2>
                     <p class="not-italic" >www.instinct3.de</p>
+		    <p class="not-italic" >Verantwortlich für den Inhalt iSv. § 18 Abs.2 MStV: Vanessa Unger
 				</address>
-		   <p class="not-italic" >Verantwortlich für den Inhalt iSv. § 18 Abs.2 MStV: Vanessa Unger
+				
+		   
 </p>
 			</section>
 	</div>
