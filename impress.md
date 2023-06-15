@@ -22,8 +22,7 @@ title: "Impressum"
 		    <p class="not-italic" >Verantwortlich für den Inhalt iSv. § 18 Abs.2 MStV: Vanessa Unger</p>
 				</address>
 				
-		   
-</p>
+		  
 			</section>
 	</div>
 </main>
